@@ -1,0 +1,75 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  background-image: linear-gradient(lightgrey, white);
+}
+
+header {
+  grid-column: 2 / 3;
+  background-image: linear-gradient(-30deg, black, #ad070f, #ad070f, #ad070f, black);
+  height: 100px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+content {
+  grid-column: 2 / 3;
+  background-image: linear-gradient(-30deg, lightgrey, white, white, lightgrey);
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.spacer {
+  grid-column: 2 / 3;
+  background-color: #ffffff;
+  padding: 3px;
+}
+
+input {
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: center;
+  margin: 4px;
+}
+
+input:focus {
+  
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+.videoSpace {
+  grid-column: 2 / 3;
+  background-color: white;
+  padding: 3px;
+  height: 400px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #ad070f;
+  border-radius: 2px;
+}
+
+.flickerSpace {
+  grid-column: 2 / 3;
+  background-color: white;
+  padding: 3px;
+  min-height: 400px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+footer {
+  grid-column: 2 / 3;
+	font-size: 1em;
+	color: black;
+	text-align: center;
+	padding: 20px 5px 5px 10px;
+}
