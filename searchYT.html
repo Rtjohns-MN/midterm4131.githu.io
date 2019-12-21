@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SearchYT</title>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+      <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=onJSClientLoad"></script>
+      <script type="text/javascript" src="search.js"></script>
+  </head>
+  <body>
+    <a href="index.html">Back to main page</a>
+    <div id="buttons">
+      <label> <input id="search" value='cats' type="text"/><button id="search-button" onclick="search()">Search</button></label>
+      <!--<button onclick="authenticate().then(loadClient)">authorize and load</button> 
+      <button onclick="loadClient()">Load Client</button>
+      <button onclick="search()">execute</button>-->
+    </div>
+    <div id="search-container">
+    </div>
+    <div id="player"></div>
+    
+    <!--
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+    <script src="search.js"></script>
+-->
+  </body>
+</html>
