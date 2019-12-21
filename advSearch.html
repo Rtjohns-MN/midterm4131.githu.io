@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>4131 Midterm Mashup - advanced search</title>
+    <link rel="stylesheet" type="text/css" href="MMcss.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=onJSClientLoad"></script>
+    <script type="text/javascript" src="search.js"></script>
+    <script type="text/javascript" src="pageJava.js"></script>
+    <script type="text/javascript" src="advSearchJava.js"></script>
+	  
+    <script type="text/javascript" src="FlickerScript.js"></script>
+  </head>
+<body>
+	<header>
+		<h1>4131 Midterm Mashup</h1>
+		<p>Robert Johnson joh10555 & An Nguyen nguy3185</p>
+	</header>
+	<div class="spacer"></div>
+	<content>
+		<p>
+			This webpage combines the Youtube Iframe/Data, and Flicker APIs to 
+			search both sites for related content and display it in the space below.
+		</p>
+		<div id="searchbox">
+			<input id="search" type="text" placeholder="search text" onkeydown="onEnter(event)"/>
+		</div>
+		<br>
+		<div>
+			<button onclick="executeAdv()">search</button>
+		</div>
+	</content>
+	<div class="spacer"></div>
+	<div class="videoSpace">
+		<div id="player">Videos will appear here</div>
+	</div>
+	<div class="spacer"></div>
+	<div class="flickerSpace" id="outputDiv">Images will appear here </div>
+	<footer>
+		<a href="YTtest.html">Youtube Test</a>
+		<span>  </span>
+		<a href="searchYT.html">Youtube Search Test</a>
+		<span>  </span>
+		<a href="FlickerTest.html">Flicker test page</a>
+		<span>  </span>
+		<a href="index.html">Main page</a>
+	</footer>
+	<div>
+
+	</div>
+	<a href="index.html">Back to main page</a>
+	
+</body>
+</html>
